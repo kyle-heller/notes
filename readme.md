@@ -10,8 +10,16 @@ Here you'll find my collection of notes I've taken on various programming topics
 
 ### [Data Types](./Ruby/Data_Types.md)
 
+### [Debugging](./Ruby/Debugging.md)
+
 ### [Definitions](./Ruby/Definitions.md)
 
+### [Hashes](./Ruby/Hashes.md)
+
+### [IO](./Ruby/IO.md)
+
 ### [Loops](./Ruby/Loops.md)
+
+### [Methods](./Ruby/Methods.md)
 
 ### [Variables](./Ruby/Variables.md)
