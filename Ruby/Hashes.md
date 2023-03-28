@@ -26,6 +26,15 @@ my_hash = Hash.new
 my_hash               #=> {}
 ```
 
+Example hashes:
+
+```
+jon_snow = {
+  name: "Jon",
+  email: "jon_snow@thewall.we"
+}
+```
+
 ## Accessing Values
 
 You can access values in a hash the same way that you access elements in an array. When you call a hash’s value by key, the key goes inside a pair of brackets, just like when you’re calling an array by index.
