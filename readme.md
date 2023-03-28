@@ -24,4 +24,6 @@ Here you'll find my collection of notes I've taken on various programming topics
 
 ### [Methods](./Ruby/Methods.md)
 
+### [Nested Collections](./Ruby/Nested_Collections.md)
+
 ### [Variables](./Ruby/Variables.md)
