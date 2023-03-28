@@ -14,6 +14,8 @@ Here you'll find my collection of notes I've taken on various programming topics
 
 ### [Definitions](./Ruby/Definitions.md)
 
+### [Enumerable Methods](./Ruby/Enumerable_Methods.md)
+
 ### [Hashes](./Ruby/Hashes.md)
 
 ### [IO](./Ruby/IO.md)
