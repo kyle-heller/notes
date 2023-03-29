@@ -20,6 +20,9 @@ https://ruby-doc.org/core-3.1.2/Enumerable.html
 - #none? returns true only if NONE of the elements in the object return true when the block is run.
 - #find returns the first item in your object for which the block returns true.
 - #group_by will run your block and return a hash that groups all the different types of returns from that block. - #grep returns an array with those items that actualy match the specified criteria (RegEx) (using a === match)
+- #reject: This method is used to create a new collection containing only the elements from the original collection that do not meet a specified condition.
+- #sort/sort_by: This method is used to sort a collection based on a specified attribute or a block of code that evaluates each element.
+- #count: This method is used to count the number of elements in a collection that meet a specified condition.
 
 ## Predicate Enumerable Method Cheatsheet
 
