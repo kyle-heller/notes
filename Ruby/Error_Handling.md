@@ -251,6 +251,10 @@ Exception
     fatal
 ```
 
+As you can see, the StandardError class covers just about any kind of syntax-type error. For example, if your code tries to read from a file that doesn't exist:
+
+
+
 ## Unintended Consequences of Too Wide a Net (aka can't break out with interupt)
 
 ```
@@ -332,3 +336,6 @@ Enter a number>>
    Try again...
 Enter a number>>
 ```
+Unfortunately it won't print out the type of exception, but what's happening is that Ctrl-C creates an Interrupt-type exception. But because our program is designed to rescue Exception, which includes Interrupt, the program "rescues" our Ctrl-C action. Thus, we can't use that to break out of the program (you'll just have to shut down your command line window to get out of it.)
+
+The main lesson here is that while it may be convenient to rescue everything, it may cause unwanted effects and behavior. Be specific when possible.

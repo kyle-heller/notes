@@ -65,6 +65,10 @@ Ruby has all the typical math operators you would expect:
 10 % 4  #=> 2  (10 / 4 = 2 with a remainder of 2)
 ```
 
+**#between**
+
+
+
 ### Modulo
 
 This is represented by the % symbol. It can be referred to as the remainder operator as well, though that is not strictly correct. (There are some subtle differences between modulo and remainder operations). In modulo expressions, the value to the left of the % is called the dividend, and the value to the right is called the modulus.
