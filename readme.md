@@ -2,6 +2,12 @@
 
 Here you'll find my collection of notes I've taken on various programming topics.
 
+## Table of Contents
+
+- [Java Notes](#kyles-java-notes)
+- [Ruby Notes](#kyles-ruby-notes)
+- [Python Notes](#kyles-python-notes)
+
 # Kyle's Java Notes
 
 Here you'll find my collection of notes I've taken on various Java programming topics.
