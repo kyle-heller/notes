@@ -74,6 +74,10 @@ Here you'll find my collection of notes I've taken on various Java programming t
 
 ### [Exceptions](./Java/java_33_exceptions.md)
 
+# Kyle's Ruby Notes
+
+Here you'll find my collection of notes I've taken on various Python programming topics.
+
 ## Ruby
 
 ### [Arrays](./Ruby/Arrays.md)
