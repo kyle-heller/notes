@@ -4,6 +4,97 @@
 
 RSpec is a testing framework for the Ruby programming language. It provides a domain-specific language (DSL) for writing tests, and it is designed to be human-readable and easy to understand. RSpec uses a behavior-driven development (BDD) approach, which focuses on describing the behavior of the system under test.
 
+## What To Test
+
+Certainly! I'll provide examples and explanations for each of the four types of methods mentioned in your question: command, query, script, and looping script.
+
+1. Command:
+   A command is a method that changes the observable state but does not return a value. It is often used to perform actions or modify data without producing any specific output. Here's an example:
+
+```ruby
+class ShoppingCart
+  def add_item(item)
+    # Code to add the item to the shopping cart
+    # ...
+  end
+end
+```
+
+In this example, the `add_item` method is a command because it modifies the state of the `ShoppingCart` object by adding an item to it. The method doesn't return anything; its purpose is solely to perform the action of adding an item.
+
+When testing a command method, you would typically verify that the expected changes have occurred in the system. For instance, you could check if the item was successfully added to the shopping cart or if the appropriate changes were made to the underlying data.
+
+2. Query:
+   A query is a method that returns a result without changing the observable state. It is used to retrieve information or perform calculations based on the existing data. Here's an example:
+
+```ruby
+class Calculator
+  def add(a, b)
+    a + b
+  end
+end
+```
+
+In this example, the `add` method is a query because it takes two arguments, performs the addition operation, and returns the result. It doesn't modify any state; its purpose is solely to provide a value based on the inputs.
+
+When testing a query method, you would typically verify that the returned value is correct based on the inputs or conditions specified. For instance, you could test if the `add` method returns the expected sum when provided with different combinations of numbers.
+
+3. Script:
+   A script is a method that only calls other methods, usually without returning anything. It orchestrates the execution of multiple methods to achieve a specific goal. Here's an example:
+
+```ruby
+class OrderProcessor
+  def process_order(order)
+    validate_order(order)
+    apply_discounts(order)
+    send_confirmation_email(order)
+  end
+
+  def validate_order(order)
+    # Code to validate the order
+    # ...
+  end
+
+  def apply_discounts(order)
+    # Code to apply discounts to the order
+    # ...
+  end
+
+  def send_confirmation_email(order)
+    # Code to send a confirmation email to the customer
+    # ...
+  end
+end
+```
+
+In this example, the `process_order` method is a script because it calls other methods (`validate_order`, `apply_discounts`, and `send_confirmation_email`) to perform various tasks related to order processing. It doesn't return anything; its purpose is to coordinate the execution flow.
+
+When testing a script method, you would typically focus on the interactions between the called methods. You can verify that the expected methods are called with the correct arguments and that they are invoked in the desired order.
+
+4. Looping Script:
+   A looping script is a method that only calls other methods, usually without returning anything, and stops when certain conditions are met. It iterates over a collection or performs a repetitive task until a specific criterion is fulfilled. Here's an example:
+
+```ruby
+class DataProcessor
+  def process_data(data)
+    data.each do |item|
+      process_item(item)
+    end
+  end
+
+  def process_item(item)
+    # Code to process an individual item
+    # ...
+  end
+end
+```
+
+In this example, the process_data method is a looping script because it iterates over the data collection and calls the process_item method for each item. The iteration stops naturally when all items have been processed. The method doesn't return anything; its purpose is to iterate and execute the required task for each item.
+
+When testing a looping script method, you would typically ensure that the underlying task is performed correctly for each item in the collection. You can verify that the process_item method is called the expected number of times and that it behaves as desired for different inputs.
+
+By understanding these four types of methods and their purposes, you can structure your tests to cover the specific behaviors and expectations associated with each type, leading to comprehensive test coverage for your Ruby code.
+
 ### Key Elements of RSpec Testing
 
 1. **Describe Blocks**: The `describe` block is used to define a group of related tests. It is typically used to describe the behavior of a class or method. For example:
