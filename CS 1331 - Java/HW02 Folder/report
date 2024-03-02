@@ -1,0 +1,1926 @@
+
+Grading Report
+
+
+[Executed at: Sat Jan 20 16:42:38 PST 2024]
+
+Total Score: 9.00/100 (sent to edX: 9)
+All Required Files Submitted (0.0/0.0)
+Compilation Check: Passed (0.0/0.0)
+Add: Operation Detection with Case Sensitivity 1 (0.0/0.5)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+aDd
+1 2
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[aDd]\nEnter two integers:\n[1 2]\nAnswer: 3\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [aDd]\nEnter two numbers to add:\n[1 2]\n3\n\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[aDd]
+Enter two integers:
+[1 2]
+Answer: 3
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [aDd]
+Enter two numbers to add:
+[1 2]
+3
+
+=====
+
+Add: Operation Detection with Case Sensitivity 2 (0.0/0.5)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+ADD
+1 2
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[ADD]\nEnter two integers:\n[1 2]\nAnswer: 3\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [ADD]\nEnter two numbers to add:\n[1 2]\n3\n\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[ADD]
+Enter two integers:
+[1 2]
+Answer: 3
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [ADD]
+Enter two numbers to add:
+[1 2]
+3
+
+=====
+
+Add: Operation Detection with Case Sensitivity 3 (0.0/0.5)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+add
+1 2
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[add]\nEnter two integers:\n[1 2]\nAnswer: 3\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [add]\nEnter two numbers to add:\n[1 2]\n3\n\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[add]
+Enter two integers:
+[1 2]
+Answer: 3
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [add]
+Enter two numbers to add:
+[1 2]
+3
+
+=====
+
+Add: Operation Detection with Case Sensitivity 4 (0.0/0.5)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+adD
+1 2
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[adD]\nEnter two integers:\n[1 2]\nAnswer: 3\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [adD]\nEnter two numbers to add:\n[1 2]\n3\n\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[adD]
+Enter two integers:
+[1 2]
+Answer: 3
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [adD]
+Enter two numbers to add:
+[1 2]
+3
+
+=====
+
+Add: Rejects String (0.0/3.0)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+add
+5 String
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[add]\nEnter two integers:\n[5 String]\nInvalid input entered. Terminating...\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [add]\nEnter two numbers to add:\n[5 String]\nInvalid input entered. Terminating...\n\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[add]
+Enter two integers:
+[5 String]
+Invalid input entered. Terminating...
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [add]
+Enter two numbers to add:
+[5 String]
+Invalid input entered. Terminating...
+
+=====
+
+Add: Rejects double (0.0/3.0)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+add
+5.0 2
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[add]\nEnter two integers:\n[5.0 2]\nInvalid input entered. Terminating...\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [add]\nEnter two numbers to add:\n[5.0 2]\nInvalid input entered. Terminating...\n\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[add]
+Enter two integers:
+[5.0 2]
+Invalid input entered. Terminating...
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [add]
+Enter two numbers to add:
+[5.0 2]
+Invalid input entered. Terminating...
+
+=====
+
+Add: Value Output 1 (0.0/3.0)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+add
+2 3
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[add]\nEnter two integers:\n[2 3]\nAnswer: 5\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [add]\nEnter two numbers to add:\n[2 3]\n5\n\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[add]
+Enter two integers:
+[2 3]
+Answer: 5
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [add]
+Enter two numbers to add:
+[2 3]
+5
+
+=====
+
+Add: Value Output 2 (0.0/3.0)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+add
+-40 45
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[add]\nEnter two integers:\n[-40 45]\nAnswer: 5\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [add]\nEnter two numbers to add:\n[-40 45]\n5\n\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[add]
+Enter two integers:
+[-40 45]
+Answer: 5
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [add]
+Enter two numbers to add:
+[-40 45]
+5
+
+=====
+
+Alphabetize: Different Casing (0.0/3.0)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+alphabetize
+Zebra zebra
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[alphabetize]\nEnter two words:\n[Zebra zebra]\nAnswer: Chicken or Egg.\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [alphabetize]\nInvalid input entered. Terminating...\n\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[alphabetize]
+Enter two words:
+[Zebra zebra]
+Answer: Chicken or Egg.
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [alphabetize]
+Invalid input entered. Terminating...
+
+=====
+
+Alphabetize: Equal 1 (0.0/3.0)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+alphabetize
+programming programming
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[alphabetize]\nEnter two words:\n[programming programming]\nAnswer: Chicken or Egg.\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [alphabetize]\nInvalid input entered. Terminating...\n\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[alphabetize]
+Enter two words:
+[programming programming]
+Answer: Chicken or Egg.
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [alphabetize]
+Invalid input entered. Terminating...
+
+=====
+
+Alphabetize: Equal 2 (0.0/3.0)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+alphabetize
+Win Win
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[alphabetize]\nEnter two words:\n[Win Win]\nAnswer: Chicken or Egg.\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [alphabetize]\nInvalid input entered. Terminating...\n\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[alphabetize]
+Enter two words:
+[Win Win]
+Answer: Chicken or Egg.
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [alphabetize]
+Invalid input entered. Terminating...
+
+=====
+
+Alphabetize: Greater 1 (0.0/3.0)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+alphabetize
+Egg Chicken
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[alphabetize]\nEnter two words:\n[Egg Chicken]\nAnswer: Chicken comes before Egg alphabetically.\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [alphabetize]\nInvalid input entered. Terminating...\n\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[alphabetize]
+Enter two words:
+[Egg Chicken]
+Answer: Chicken comes before Egg alphabetically.
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [alphabetize]
+Invalid input entered. Terminating...
+
+=====
+
+Alphabetize: Greater 2 (0.0/3.0)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+alphabetize
+egg chicken
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[alphabetize]\nEnter two words:\n[egg chicken]\nAnswer: chicken comes before egg alphabetically.\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [alphabetize]\nInvalid input entered. Terminating...\n\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[alphabetize]
+Enter two words:
+[egg chicken]
+Answer: chicken comes before egg alphabetically.
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [alphabetize]
+Invalid input entered. Terminating...
+
+=====
+
+Alphabetize: Greater 3 (0.0/3.0)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+alphabetize
+man iron
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[alphabetize]\nEnter two words:\n[man iron]\nAnswer: iron comes before man alphabetically.\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [alphabetize]\nInvalid input entered. Terminating...\n\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[alphabetize]
+Enter two words:
+[man iron]
+Answer: iron comes before man alphabetically.
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [alphabetize]
+Invalid input entered. Terminating...
+
+=====
+
+Alphabetize: Less 1 (0.0/3.0)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+alphabetize
+Chicken Egg
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[alphabetize]\nEnter two words:\n[Chicken Egg]\nAnswer: Chicken comes before Egg alphabetically.\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [alphabetize]\nInvalid input entered. Terminating...\n\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[alphabetize]
+Enter two words:
+[Chicken Egg]
+Answer: Chicken comes before Egg alphabetically.
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [alphabetize]
+Invalid input entered. Terminating...
+
+=====
+
+Alphabetize: Less 2 (0.0/3.0)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+alphabetize
+chicken egg
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[alphabetize]\nEnter two words:\n[chicken egg]\nAnswer: chicken comes before egg alphabetically.\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [alphabetize]\nInvalid input entered. Terminating...\n\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[alphabetize]
+Enter two words:
+[chicken egg]
+Answer: chicken comes before egg alphabetically.
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [alphabetize]
+Invalid input entered. Terminating...
+
+=====
+
+Alphabetize: Less 3 (0.0/3.0)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+alphabetize
+iron man
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[alphabetize]\nEnter two words:\n[iron man]\nAnswer: iron comes before man alphabetically.\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [alphabetize]\nInvalid input entered. Terminating...\n\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[alphabetize]
+Enter two words:
+[iron man]
+Answer: iron comes before man alphabetically.
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [alphabetize]
+Invalid input entered. Terminating...
+
+=====
+
+Alphabetize: Operation Detection with Case Sensitivity 1 (0.0/0.5)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+aLPHAbetize
+a b
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[aLPHAbetize]\nEnter two words:\n[a b]\nAnswer: a comes before b alphabetically.\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [aLPHAbetize]\nInvalid input entered. Terminating...\n\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[aLPHAbetize]
+Enter two words:
+[a b]
+Answer: a comes before b alphabetically.
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [aLPHAbetize]
+Invalid input entered. Terminating...
+
+=====
+
+Alphabetize: Operation Detection with Case Sensitivity 2 (0.0/0.5)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+ALPHABETIZE
+b a
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[ALPHABETIZE]\nEnter two words:\n[b a]\nAnswer: a comes before b alphabetically.\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [ALPHABETIZE]\nInvalid input entered. Terminating...\n\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[ALPHABETIZE]
+Enter two words:
+[b a]
+Answer: a comes before b alphabetically.
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [ALPHABETIZE]
+Invalid input entered. Terminating...
+
+=====
+
+Alphabetize: Operation Detection with Case Sensitivity 3 (0.0/0.5)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+alPHaBetIZE
+a a
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[alPHaBetIZE]\nEnter two words:\n[a a]\nAnswer: Chicken or Egg.\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [alPHaBetIZE]\nInvalid input entered. Terminating...\n\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[alPHaBetIZE]
+Enter two words:
+[a a]
+Answer: Chicken or Egg.
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [alPHaBetIZE]
+Invalid input entered. Terminating...
+
+=====
+
+Alphabetize: Operation Detection with Case Sensitivity 4 (0.0/0.5)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+alphabetize
+A A
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[alphabetize]\nEnter two words:\n[A A]\nAnswer: Chicken or Egg.\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [alphabetize]\nInvalid input entered. Terminating...\n\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[alphabetize]
+Enter two words:
+[A A]
+Answer: Chicken or Egg.
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [alphabetize]
+Invalid input entered. Terminating...
+
+=====
+
+Calculator Compiles (2.0/2.0)
+Calculator has if-else (2.5/2.5)
+Calculator has main (2.0/2.0)
+Calculator has switch (2.5/2.5)
+Divide: Division by 0 (0.0/3.0)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+divide
+1 0
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[divide]\nEnter two doubles:\n[1 0]\nInvalid input entered. Terminating...\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [divide]\nEnter two numbers to divide:\n[1 0]\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[divide]
+Enter two doubles:
+[1 0]
+Invalid input entered. Terminating...
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [divide]
+Enter two numbers to divide:
+[1 0]
+=====
+
+Divide: Operation Detection with Case Sensitivity 1 (0.0/0.5)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+DIVIDE
+1.0 2.0
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[DIVIDE]\nEnter two doubles:\n[1.0 2.0]\nAnswer: 0.50\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [DIVIDE]\nEnter two numbers to divide:\n[1.0 2.0]\n0.50\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[DIVIDE]
+Enter two doubles:
+[1.0 2.0]
+Answer: 0.50
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [DIVIDE]
+Enter two numbers to divide:
+[1.0 2.0]
+0.50
+=====
+
+Divide: Operation Detection with Case Sensitivity 2 (0.0/0.5)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+diviDE
+1.0 2.0
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[diviDE]\nEnter two doubles:\n[1.0 2.0]\nAnswer: 0.50\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [diviDE]\nEnter two numbers to divide:\n[1.0 2.0]\n0.50\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[diviDE]
+Enter two doubles:
+[1.0 2.0]
+Answer: 0.50
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [diviDE]
+Enter two numbers to divide:
+[1.0 2.0]
+0.50
+=====
+
+Divide: Operation Detection with Case Sensitivity 3 (0.0/0.5)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+DiVIde
+1.0 2.0
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[DiVIde]\nEnter two doubles:\n[1.0 2.0]\nAnswer: 0.50\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [DiVIde]\nEnter two numbers to divide:\n[1.0 2.0]\n0.50\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[DiVIde]
+Enter two doubles:
+[1.0 2.0]
+Answer: 0.50
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [DiVIde]
+Enter two numbers to divide:
+[1.0 2.0]
+0.50
+=====
+
+Divide: Operation Detection with Case Sensitivity 4 (0.0/0.5)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+divide
+1.0 2.0
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[divide]\nEnter two doubles:\n[1.0 2.0]\nAnswer: 0.50\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [divide]\nEnter two numbers to divide:\n[1.0 2.0]\n0.50\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[divide]
+Enter two doubles:
+[1.0 2.0]
+Answer: 0.50
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [divide]
+Enter two numbers to divide:
+[1.0 2.0]
+0.50
+=====
+
+Divide: Rejects String (0.0/3.0)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+multiply
+4.0 S
+
+The following error(s) were found:
+
+Got a thrown exception of type java.lang.NumberFormatException when none was expected, stack trace:
+java.lang.NumberFormatException: For input string: "S"
+        at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+        at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+        at java.base/java.lang.Double.parseDouble(Double.java:549)
+        at Calculator.main(Calculator.java:45)
+
+
+=============== Additionally, ===============
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[multiply]\nEnter two doubles:\n[4.0 S]\nInvalid input entered. Terminating...\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [multiply]\nEnter two numbers to multiply:\n[4.0 S]\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[multiply]
+Enter two doubles:
+[4.0 S]
+Invalid input entered. Terminating...
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [multiply]
+Enter two numbers to multiply:
+[4.0 S]
+=====
+
+Divide: Value Output 1 (0.0/3.0)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+divide
+8 4
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[divide]\nEnter two doubles:\n[8 4]\nAnswer: 2.00\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [divide]\nEnter two numbers to divide:\n[8 4]\n2.00\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[divide]
+Enter two doubles:
+[8 4]
+Answer: 2.00
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [divide]
+Enter two numbers to divide:
+[8 4]
+2.00
+=====
+
+Divide: Value Output 2 (0.0/3.0)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+divide
+8 4.0
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[divide]\nEnter two doubles:\n[8 4.0]\nAnswer: 2.00\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [divide]\nEnter two numbers to divide:\n[8 4.0]\n2.00\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[divide]
+Enter two doubles:
+[8 4.0]
+Answer: 2.00
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [divide]
+Enter two numbers to divide:
+[8 4.0]
+2.00
+=====
+
+Divide: Value Output 3 (0.0/3.0)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+divide
+3.14 2.7
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[divide]\nEnter two doubles:\n[3.14 2.7]\nAnswer: 1.16\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [divide]\nEnter two numbers to divide:\n[3.14 2.7]\n1.16\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[divide]
+Enter two doubles:
+[3.14 2.7]
+Answer: 1.16
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [divide]
+Enter two numbers to divide:
+[3.14 2.7]
+1.16
+=====
+
+Multiply: Operation Detection with Case Sensitivity 1 (0.0/0.5)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+MultiPly
+1.0 2.0
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[MultiPly]\nEnter two doubles:\n[1.0 2.0]\nAnswer: 2.00\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [MultiPly]\nEnter two numbers to multiply:\n[1.0 2.0]\n2.00\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[MultiPly]
+Enter two doubles:
+[1.0 2.0]
+Answer: 2.00
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [MultiPly]
+Enter two numbers to multiply:
+[1.0 2.0]
+2.00
+=====
+
+Multiply: Operation Detection with Case Sensitivity 2 (0.0/0.5)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+MULTIPLY
+1.0 2.0
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[MULTIPLY]\nEnter two doubles:\n[1.0 2.0]\nAnswer: 2.00\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [MULTIPLY]\nEnter two numbers to multiply:\n[1.0 2.0]\n2.00\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[MULTIPLY]
+Enter two doubles:
+[1.0 2.0]
+Answer: 2.00
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [MULTIPLY]
+Enter two numbers to multiply:
+[1.0 2.0]
+2.00
+=====
+
+Multiply: Operation Detection with Case Sensitivity 3 (0.0/0.5)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+muLtiPLy
+1.0 2.0
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[muLtiPLy]\nEnter two doubles:\n[1.0 2.0]\nAnswer: 2.00\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [muLtiPLy]\nEnter two numbers to multiply:\n[1.0 2.0]\n2.00\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[muLtiPLy]
+Enter two doubles:
+[1.0 2.0]
+Answer: 2.00
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [muLtiPLy]
+Enter two numbers to multiply:
+[1.0 2.0]
+2.00
+=====
+
+Multiply: Operation Detection with Case Sensitivity 4 (0.0/0.5)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+multiply
+1.0 2.0
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[multiply]\nEnter two doubles:\n[1.0 2.0]\nAnswer: 2.00\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [multiply]\nEnter two numbers to multiply:\n[1.0 2.0]\n2.00\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[multiply]
+Enter two doubles:
+[1.0 2.0]
+Answer: 2.00
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [multiply]
+Enter two numbers to multiply:
+[1.0 2.0]
+2.00
+=====
+
+Multiply: Rejects String (0.0/3.0)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+multiply
+4.0 S
+
+The following error(s) were found:
+
+Got a thrown exception of type java.lang.NumberFormatException when none was expected, stack trace:
+java.lang.NumberFormatException: For input string: "S"
+        at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+        at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+        at java.base/java.lang.Double.parseDouble(Double.java:549)
+        at Calculator.main(Calculator.java:45)
+
+
+=============== Additionally, ===============
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[multiply]\nEnter two doubles:\n[4.0 S]\nInvalid input entered. Terminating...\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [multiply]\nEnter two numbers to multiply:\n[4.0 S]\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[multiply]
+Enter two doubles:
+[4.0 S]
+Invalid input entered. Terminating...
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [multiply]
+Enter two numbers to multiply:
+[4.0 S]
+=====
+
+Multiply: Value Output 1 (0.0/3.0)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+multiply
+4 3
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[multiply]\nEnter two doubles:\n[4 3]\nAnswer: 12.00\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [multiply]\nEnter two numbers to multiply:\n[4 3]\n12.00\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[multiply]
+Enter two doubles:
+[4 3]
+Answer: 12.00
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [multiply]
+Enter two numbers to multiply:
+[4 3]
+12.00
+=====
+
+Multiply: Value Output 2 (0.0/3.0)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+multiply
+3.11 2.555
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[multiply]\nEnter two doubles:\n[3.11 2.555]\nAnswer: 7.95\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [multiply]\nEnter two numbers to multiply:\n[3.11 2.555]\n7.95\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[multiply]
+Enter two doubles:
+[3.11 2.555]
+Answer: 7.95
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [multiply]
+Enter two numbers to multiply:
+[3.11 2.555]
+7.95
+=====
+
+Multiply: Value Output 3 (0.0/3.0)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+multiply
+3.1 0
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[multiply]\nEnter two doubles:\n[3.1 0]\nAnswer: 0.00\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [multiply]\nEnter two numbers to multiply:\n[3.1 0]\n0.00\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[multiply]
+Enter two doubles:
+[3.1 0]
+Answer: 0.00
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [multiply]
+Enter two numbers to multiply:
+[3.1 0]
+0.00
+=====
+
+Subtract: Operation Detection with Case Sensitivity 1 (0.0/0.5)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+sUbTraCT
+1 2
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[sUbTraCT]\nEnter two integers:\n[1 2]\nAnswer: -1\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [sUbTraCT]\nEnter two numbers to subtract:\n[1 2]\n-1\n\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[sUbTraCT]
+Enter two integers:
+[1 2]
+Answer: -1
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [sUbTraCT]
+Enter two numbers to subtract:
+[1 2]
+-1
+
+=====
+
+Subtract: Operation Detection with Case Sensitivity 2 (0.0/0.5)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+SUBTRACT
+1 2
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[SUBTRACT]\nEnter two integers:\n[1 2]\nAnswer: -1\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [SUBTRACT]\nEnter two numbers to subtract:\n[1 2]\n-1\n\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[SUBTRACT]
+Enter two integers:
+[1 2]
+Answer: -1
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [SUBTRACT]
+Enter two numbers to subtract:
+[1 2]
+-1
+
+=====
+
+Subtract: Operation Detection with Case Sensitivity 3 (0.0/0.5)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+subtract
+1 2
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[subtract]\nEnter two integers:\n[1 2]\nAnswer: -1\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [subtract]\nEnter two numbers to subtract:\n[1 2]\n-1\n\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[subtract]
+Enter two integers:
+[1 2]
+Answer: -1
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [subtract]
+Enter two numbers to subtract:
+[1 2]
+-1
+
+=====
+
+Subtract: Operation Detection with Case Sensitivity 4 (0.0/0.5)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+SUBtract
+1 2
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[SUBtract]\nEnter two integers:\n[1 2]\nAnswer: -1\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [SUBtract]\nEnter two numbers to subtract:\n[1 2]\n-1\n\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[SUBtract]
+Enter two integers:
+[1 2]
+Answer: -1
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [SUBtract]
+Enter two numbers to subtract:
+[1 2]
+-1
+
+=====
+
+Subtract: Rejects String (0.0/3.0)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+subtract
+hello 2
+
+The following error(s) were found:
+
+Got a thrown exception of type java.lang.NumberFormatException when none was expected, stack trace:
+java.lang.NumberFormatException: For input string: "hello"
+        at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+        at java.base/java.lang.Integer.parseInt(Integer.java:652)
+        at java.base/java.lang.Integer.parseInt(Integer.java:770)
+        at Calculator.main(Calculator.java:35)
+
+
+=============== Additionally, ===============
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[subtract]\nEnter two integers:\n[hello 2]\nInvalid input entered. Terminating...\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [subtract]\nEnter two numbers to subtract:\n[hello 2]\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[subtract]
+Enter two integers:
+[hello 2]
+Invalid input entered. Terminating...
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [subtract]
+Enter two numbers to subtract:
+[hello 2]
+=====
+
+Subtract: Rejects double (0.0/3.0)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+subtract
+2.2 1.1
+
+The following error(s) were found:
+
+Got a thrown exception of type java.lang.NumberFormatException when none was expected, stack trace:
+java.lang.NumberFormatException: For input string: "2.2"
+        at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+        at java.base/java.lang.Integer.parseInt(Integer.java:652)
+        at java.base/java.lang.Integer.parseInt(Integer.java:770)
+        at Calculator.main(Calculator.java:35)
+
+
+=============== Additionally, ===============
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[subtract]\nEnter two integers:\n[2.2 1.1]\nInvalid input entered. Terminating...\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [subtract]\nEnter two numbers to subtract:\n[2.2 1.1]\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[subtract]
+Enter two integers:
+[2.2 1.1]
+Invalid input entered. Terminating...
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [subtract]
+Enter two numbers to subtract:
+[2.2 1.1]
+=====
+
+Subtract: Value Output 1 (0.0/3.0)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+subtract
+1 3
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[subtract]\nEnter two integers:\n[1 3]\nAnswer: -2\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [subtract]\nEnter two numbers to subtract:\n[1 3]\n-2\n\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[subtract]
+Enter two integers:
+[1 3]
+Answer: -2
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [subtract]
+Enter two numbers to subtract:
+[1 3]
+-2
+
+=====
+
+Subtract: Value Output 2 (0.0/3.0)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+subtract
+-1 -2
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[subtract]\nEnter two integers:\n[-1 -2]\nAnswer: 1\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [subtract]\nEnter two numbers to subtract:\n[-1 -2]\n1\n\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[subtract]
+Enter two integers:
+[-1 -2]
+Answer: 1
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [subtract]
+Enter two numbers to subtract:
+[-1 -2]
+1
+
+=====
+
+Test Invalid Operation (0.0/3.0)
+
+In interaction: java Calculator
+
+With the following input lines:
+
+exponentiation
+
+The following error(s) were found:
+
+The Input/Output didn't match with the expected. Review the Expected and Actual Input/Output.
+Note that user input is shown in brackets, but brackets aren't passed to your program / code
+
+Raw Expected Input/Output (as a Java String)
+"List of operations: add subtract multiply divide alphabetize\nEnter an operation:\n[exponentiation]\nInvalid input entered. Terminating...\n"
+
+Raw Actual Input/Output (as a Java String)
+"Hello world!\nAdd, Subtract, Multiply, Divide, or Alphabetize?\nEnter your operation: [exponentiation]\nInvalid input entered. Terminating...\n\n"
+
+Visualized Expected Input/Output
+=====
+List of operations: add subtract multiply divide alphabetize
+Enter an operation:
+[exponentiation]
+Invalid input entered. Terminating...
+=====
+
+Visualized Actual Input/Output
+=====
+Hello world!
+Add, Subtract, Multiply, Divide, or Alphabetize?
+Enter your operation: [exponentiation]
+Invalid input entered. Terminating...
+
+=====
+
+
