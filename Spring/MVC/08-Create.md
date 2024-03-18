@@ -2,10 +2,14 @@
 
 Implementing data creation functionalities in web applications involves constructing forms that users can interact with. This guide walks you through creating a form in Spring MVC to add new data, specifically focusing on a scenario where users can create information about running clubs.
 
+![alt text](image-45.png)
+
 #### Understanding Forms in HTML and Spring MVC
 
 - **Forms and Inputs**: In HTML, forms are defined with `<form>` tags, and within these forms, `<input>` tags represent the fields users fill out. In Spring MVC, forms are not only about gathering input but also about how this input is transformed into a model object and processed.
 - **Thymeleaf and Forms**: To create forms in Spring MVC that bind directly to model attributes, Thymeleaf's special syntax is used. This involves setting an `action` for the form, which is the endpoint the form data is sent to, and an `object`, which represents the model attribute in the form of JSON.
+
+![alt text](image-46.png)
 
 #### Step-by-Step Form Creation
 

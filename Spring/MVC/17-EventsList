@@ -1,0 +1,35 @@
+### Implementing Event Functionality
+
+In developing a comprehensive Running Club application, a key feature introduced is the ability to create, view, and manage events associated with individual running clubs. This enhancement not only enriches the user experience by providing detailed activity options but also incorporates intricate relationships between data models to reflect real-world connections. The following notes outline the primary steps and concepts involved in integrating event functionality into the app.
+
+#### Decoupling Mappers
+
+To enhance code maintainability and adhere to the Single Responsibility Principle, mappers for clubs and events are separated into individual classes, `ClubMapper` and `EventMapper`. This segregation allows for focused modifications and better organization of the codebase, facilitating easier management of data transformations between entity models and Data Transfer Objects (DTOs).
+
+#### Extending the Club DTO
+
+The `ClubDTO` is expanded to include a list of `EventDTOs`, signifying the one-to-many relationship between clubs and their respective events. This extension is crucial for presenting event details on club-specific pages, where users can explore various activities related to a chosen club.
+
+#### Creating Events
+
+A pivotal aspect of event management is enabling users to create new events. This functionality necessitates the addition of a service layer method, `createEvent`, which requires parameters such as the club ID (to associate the event with a specific club) and the event's details encapsulated within an `EventDTO`. The implementation involves fetching the corresponding club entity, constructing a new event entity from the DTO, and persisting this new event to the database.
+
+#### Displaying Events in Club Details
+
+To display events on a club's detail page, adjustments are made to the club retrieval service to ensure event information is included when fetching a club's details. This involves modifying the mapper function to not only convert the club entity to a `ClubDTO` but also to transform and include associated events as a list of `EventDTOs`.
+
+#### Managing Event Data Models
+
+The Event entity is designed to include essential fields such as event name, type, start and end times, and an optional photo URL. It's linked to the Club entity through a Many-to-One relationship, annotated in JPA as `@ManyToOne`, with a corresponding `@JoinColumn` to indicate the foreign key column in the database.
+
+#### Listing All Events
+
+An additional feature introduced is the ability to view all events, regardless of the club association. This is achieved by creating a new endpoint in the Event Controller that retrieves all event entities, transforms them to `EventDTOs`, and returns them to a dedicated "Events List" page. This page is designed similarly to the clubs list page but specifically lists events, their details, and, potentially, links to more information or registration pages.
+
+#### Refining the UI and Navigation
+
+The user interface (UI) adjustments include adding navigation links to the event creation page from the club details page and incorporating a list of events on the club details page. Additionally, a new navigation option is added to the main menu for users to access a list of all events directly. These UI enhancements are crucial for a seamless user experience, allowing easy access to event-related functionalities.
+
+#### Conclusion
+
+The integration of event functionality into the Running Club app represents a significant advancement in its development, introducing a dynamic and interactive component that greatly enriches the user experience. By carefully managing the relationships between data models and thoughtfully designing the UI, the app not only provides valuable information about running clubs and their activities but also fosters a more engaged and active community of users.
